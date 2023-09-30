@@ -21,7 +21,7 @@ jobs:
       uses: google-github-actions/setup-gcloud@v0.2.1
       with:
         service_account_key: ${{ secrets.GCR_SA_KEY }}
-        project_id: bimbo-proyecto
+        project_id: gendra-proyecto
         export_default_credentials: true
 
     - name: Configure Docker and GCR credentials
