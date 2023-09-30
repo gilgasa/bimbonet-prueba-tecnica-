@@ -99,4 +99,17 @@ Adicionalmente, la definición completa de la API en formato OpenAPI 3.0 se encu
 Esta documentación proporciona detalles sobre cada endpoint, los modelos de datos utilizados y ejemplos de respuestas y peticiones.
 
 
+## 🌐 Despliegue de Demo en la Nube
+
+Para facilitar la prueba y demostración de la funcionalidad de nuestra API, he desplegado una versión demo en la nube. Puedes acceder y experimentar con la API BimboNet en las siguientes URLs:
+
+- **Documentación Swagger**: [Haz clic aquí](https://bimbonet-prueba-tecnica-gil-aqabzhnqjq-uc.a.run.app/swagger-ui/index.html)
+  
+- **Definición API en formato OpenAPI 3.0**: [Haz clic aquí](https://bimbonet-prueba-tecnica-gil-aqabzhnqjq-uc.a.run.app/v3/api-docs)
+
+Te invitamos a interactuar con la API y a proporcionar cualquier feedback o sugerencia.
+
+
 Comprometido con la calidad y el cumplimiento de los requerimientos, se ha hecho un esfuerzo para asegurarme de que se cumplan todas las expectativas del proyecto.
+
+
