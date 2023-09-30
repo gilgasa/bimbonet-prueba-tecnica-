@@ -21,7 +21,7 @@ jobs:
       uses: google-github-actions/setup-gcloud@v0.2.1
       with:
         service_account_key: ${{ secrets.GCR_SA_KEY }}
-        project_id: gendra-proyecto
+        project_id: bimbo-proyecto
         export_default_credentials: true
 
     - name: Configure Docker and GCR credentials
@@ -40,4 +40,4 @@ jobs:
 
     - name: Deploy to Cloud Run
       run: |
-          gcloud run deploy gendra-prueba-tecnica-gil --image gcr.io/gendra-proyecto/gendra-prueba-tecnica-gil:1.0-SNAPSHOT --region us-central1 --platform managed --allow-unauthenticated
+          gcloud run deploy bimbonet-prueba-tecnica-gil --image gcr.io/bimbonet-proyecto/bimbonet-prueba-tecnica-gil:1.0-SNAPSHOT --region us-central1 --platform managed --allow-unauthenticated
