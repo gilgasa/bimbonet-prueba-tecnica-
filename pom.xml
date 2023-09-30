@@ -98,7 +98,7 @@
                         <artifactId>dockerfile-maven-plugin</artifactId>
                         <version>1.4.13</version>
                         <configuration>
-                            <repository>gcr.io/bimbonet-proyecto/${project.artifactId}</repository>
+                            <repository>gcr.io/gendra-proyecto/${project.artifactId}</repository>
                             <tag>${project.version}</tag>
                             <dockerfile>${project.basedir}/Dockerfile</dockerfile>
                             <buildArgs>
