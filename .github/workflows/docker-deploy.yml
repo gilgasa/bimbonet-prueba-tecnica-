@@ -1,4 +1,4 @@
-name: Docker Deploy to GCRh
+name: Docker Deploy to GCR
 
 on:
   push:
